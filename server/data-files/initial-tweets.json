@@ -1,0 +1,46 @@
+[
+  {
+    "user": {
+      "name": "Newton",
+      "avatars": {
+        "small":   "http://i.imgur.com/PgrocAJ.gif",
+        "regular": "http://i.imgur.com/PgrocAJ.gif",
+        "large":   "http://i.imgur.com/PgrocAJ.gif"
+      },
+      "handle": "@SirIsaac"
+    },
+    "content": {
+      "text": "If I have seen further it is by standing on the shoulders of giants"
+    },
+    "created_at": 1461116232227
+  },
+  {
+    "user": {
+      "name": "Descartes",
+      "avatars": {
+        "small":   "http://guidescope.net/video/jupiter_rotating_anaglyphic_tgm.gif",
+        "regular": "http://guidescope.net/video/jupiter_rotating_anaglyphic_tgm.gif",
+        "large":   "http://guidescope.net/video/jupiter_rotating_anaglyphic_tgm.gif"
+      },
+      "handle": "@rd" },
+    "content": {
+      "text": "Je pense , donc je suis"
+    },
+    "created_at": 1461113959088
+  },
+  {
+    "user": {
+      "name": "Johann von Goethe",
+      "avatars": {
+        "small":   "https://d30y9cdsu7xlg0.cloudfront.net/png/4994-200.png",
+        "regular": "https://d30y9cdsu7xlg0.cloudfront.net/png/4994-200.png",
+        "large":   "https://d30y9cdsu7xlg0.cloudfront.net/png/4994-200.png"
+      },
+      "handle": "@johann49"
+    },
+    "content": {
+      "text": "Es ist nichts schrecklicher als eine tätige Unwissenheit."
+    },
+    "created_at": 1461113796368
+  }
+]
