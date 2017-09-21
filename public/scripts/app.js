@@ -1,9 +1,8 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
+
+//loop template..........................
+
 const createTweetElement = function(tweet) {
+
 var $tweet =	
  
    ` <article class="tweet">
@@ -28,17 +27,15 @@ var $tweet =
  return $tweet 
 };
 
+//FUNctions........................
 
 const renderTweets = function(arr){
 	for( let tweet of arr ){ 
 		let  $tweet = createTweetElement(tweet);
 		$('#tweet-container').append($tweet);
 	}
-
-		
-
 }
-
+// prevents plain-text forms from implimenting html
 function escape(str) {
   var div = document.createElement('div');
   div.appendChild(document.createTextNode(str));
@@ -54,7 +51,7 @@ function escape(str) {
  	.fail(function(error) {
  		console.error(error)
  	})
- 	}
+ }
 
  function loadTweets(){
  	$.ajax({
@@ -63,11 +60,12 @@ function escape(str) {
  		success: function (response) {
  			$('#tweet-container').empty()
     	renderTweets(response);
-    }
+      }
 	});
 }
- 
 
+
+// Character Warnings......................................................
 
 $(document).ready(function(){
 	$('.tweet-form').on('submit',function(ev) {
@@ -89,18 +87,17 @@ $(document).ready(function(){
 	$(event.target).find('.tfield').val("");
 	$('.counter').text(140);
 
-	
- 	//GET DATA FROM FORM
- 	
-})
-	
-	
 
+//....................................................
+	
+ 
+ //makes the 'compose tweet' panel move up and down function 
+})
 	$(function() {
 		$('.compose-tweet').click(function () {        
-         //append .focus() to focus the text
-         $(".new-tweet").slideToggle("slow")
-         $('.tfield').focus();  
+        //append .focus() to focus the text
+        $(".new-tweet").slideToggle("slow")
+        $('.tfield').focus();  
     });
 });
 

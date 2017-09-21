@@ -1,60 +1,41 @@
 .tweet {
-    background-color: white;
-  font-family: 'Roboto Condensed', sans-serif;
-  border-width: 1px;
+	background-color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-width: 1px;
 	border-color: #D3D3D3;
 	width:384px;
 	margin: 2em;
 	border-radius: 5px;
 	border-style: solid;
-
-
 }
 
 .tweet-header {
-
 	background-color: white;
 	height:40px;
 	width:382px;
 	border-radius: 5px;
-
-
-	}
-
-.tweet:hover .tweet-header,
-/*.tweet:hover .tweet-footer,*/
-.tweet:hover .header-text,
-.tweet:hover .user-handle{
-
-	background-color: #A9A9A9;
-	color: white;
-
 }
 
-
-
+.tweet:hover .tweet-header,
+.tweet:hover .header-text,
+.tweet:hover .user-handle {
+	background-color: #A9A9A9;
+	color: white;
 }
 
 .tweet-footer {
 	background-color: #eee;
 	height:20px;
-
-
-	}
-
-
+}
+/*Action icons.....................*/
 .fa-heart {
 	float:right;
-
 }
 .fa-retweet {
 	float:right;
-
 }
-
 .fa-flag {
 	float:right;
-
 }
 .avatar{
 	width:30px; 
@@ -63,6 +44,7 @@
 	float:left; 
 	border-radius: 50%;
 }
+/*..................................*/
 
 .header-text{
 	font-size: 10pt;
@@ -71,10 +53,8 @@
  	color:black;
  	float:left;
  	font-weight: bold;
- 
- 	
-
 }
+
 .user-handle{
 	float: right;
 	margin-right:5px;
@@ -82,13 +62,10 @@
 	font-size:10pt;
 }
 
-
-
 .tweet-text{
-	
 	margin:20px;
-
 }
+
 .time-posted{
 	font-size: 7pt;
 	margin:5px;

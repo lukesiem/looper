@@ -8,21 +8,25 @@
   padding-right:2em;
 }
 
+body #nav-bar:hover{
+	background-color:#e8e7e7;
+}
+
+/*pemrose steps logo*/
+
  #nav-bar .logo {
  	width:80px;
  	height:80px;
  	float:left;
- 	position:fixed;
  }
-
+ 
+/*looper text*/
  #nav-bar .header{
  	font-size: 24pt;
  	line-height: 80px;
  	float: left;
- 	padding-left: 90px;
-
-
- }
+ 	padding-left: 10px;
+}
 
  .compose-tweet{
  	height:40px;
@@ -35,6 +39,7 @@
  	background-color: white;
  	position:relative;
  }
+
  #nav-bar .compose-tweet:hover{
  	background-color: grey;
  }
