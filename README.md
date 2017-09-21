@@ -1,4 +1,4 @@
-!["screenshot description"](https://github.com/lukesiem/looper/blob/master/pemrose4.png?raw=true)  
+# Looper 
 
 Looper is a simple, single-page AJAX-based Twitter clone that uses 
 HTML, CSS, JS, jQuery and AJAX on the front-end and  Node, Express and MongoDB on the back end.
