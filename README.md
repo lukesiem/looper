@@ -1,4 +1,4 @@
-# Looper Project
+# Looper 
 
 Looper is a simple, single-page AJAX-based Twitter clone that uses 
 HTML, CSS, JS, jQuery and AJAX on the front-end and  Node, Express and MongoDB on the back end.
