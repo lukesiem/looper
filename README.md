@@ -27,3 +27,4 @@ HTML, CSS, JS, jQuery and AJAX on the front-end and  Node, Express and MongoDB o
 - chance 1.0.2
 - md5 2.1.0
 - mongodb 2.2.31
+- node-sass-middleware 0.11.0

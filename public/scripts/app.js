@@ -3,7 +3,7 @@
 
 const createTweetElement = function(tweet) {
 
-var $tweet =	
+	var $tweet =	
  
    ` <article class="tweet">
     <header class="tweet-header">

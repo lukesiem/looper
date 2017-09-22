@@ -1,0 +1,221 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+body {
+  margin: 0;
+  color: #A9A9A9;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+  width: 450px;
+  margin: auto;
+  background-color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*main  p {
+	text-align: center;
+}*/
+main h3 {
+  text-align: center;
+}
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+#nav-bar {
+  position: fixed,top;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  height: 80px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#nav-bar:hover {
+  background-color: #e8e7e7;
+}
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+#nav-bar .header {
+  font-size: 24pt;
+  line-height: 80px;
+  float: left;
+  padding-left: 10px;
+}
+
+#nav-bar .compose-tweet {
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+#nav-bar .compose-tweet :hover {
+  background-color: grey;
+}
+
+.new-tweet {
+  background-color: #eee;
+  border-width: 1px;
+  border-color: #D3D3D3;
+  margin-bottom: -40 px;
+  margin: 2em;
+  border-radius: 5px;
+  border-style: solid;
+  height: 120px;
+}
+
+.new-tweet h4 {
+  margin: 10px;
+  margin-top: 5px;
+}
+
+.new-tweet textarea {
+  width: 364px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.new-tweet input {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.new-tweet .warning {
+  padding-left: 5px;
+  color: red;
+  font-size: 8pt;
+}
+
+.new-tweet .counter {
+  float: right;
+  margin-right: 20px;
+}
+
+.new-tweet .neg {
+  color: red;
+}
+
+.new-tweet .pos {
+  color: grey;
+}
+
+.tweet {
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-width: 1px;
+  border-color: #D3D3D3;
+  width: 384px;
+  margin: 2em;
+  border-radius: 5px;
+  border-style: solid;
+  /*Action icons.....................*/
+  /*..................................*/
+}
+
+.tweet .tweet-header {
+  background-color: white;
+  height: 40px;
+  width: 382px;
+  border-radius: 5px;
+}
+
+.tweet .tweet-header :hover {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+.tweet .tweet-footer {
+  background-color: #eee;
+  height: 20px;
+}
+
+.tweet .fa-heart {
+  float: right;
+}
+
+.tweet .fa-retweet {
+  float: right;
+}
+
+.tweet .fa-flag {
+  float: right;
+}
+
+.tweet .avatar {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  float: left;
+  border-radius: 50%;
+}
+
+.tweet .header-text {
+  font-size: 10pt;
+  line-height: 2px;
+  padding-left: 2px;
+  color: black;
+  float: left;
+  font-weight: bold;
+}
+
+.tweet .header-text :hover {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+.tweet .user-handle {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 10pt;
+}
+
+.tweet .user-handle :hover .user-handle {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+.tweet .tweet-text {
+  margin: 20px;
+  color: black;
+}
+
+.tweet .time-posted {
+  font-size: 7pt;
+  margin: 5px;
+  padding-top: 3px;
+  text-align: left;
+}
