@@ -8,19 +8,12 @@ const bodyParser    = require("body-parser");
 const app           = express();
 const MongoClient = require("mongodb").MongoClient;
 const MONGODB_URI = "mongodb://localhost:27017/tweeter";
-const sassMiddleware = require('node-sass-middleware')
-const path = require('path');
+
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(sassMiddleware({
-    /* Options */
-    src: path.join( __dirname, '../public/styles'),
-    dest: path.join(__dirname, '../public/styles'),
-    debug: true,
-    outputStyle: 'expanded',
-    prefix:  '/styles'  
-}));
+
 app.use(express.static("public"));
 
 //connection to external database

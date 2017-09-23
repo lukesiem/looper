@@ -13,19 +13,22 @@
 	background-color: white;
 	height:40px;
 	width:382px;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 
 .tweet:hover .tweet-header,
 .tweet:hover .header-text,
-.tweet:hover .user-handle {
+.tweet:hover .user-handle,
+.tweet:hover .tweet-footer
+ {
 	background-color: #A9A9A9;
 	color: white;
 }
 
 .tweet-footer {
-	background-color: #eee;
+	background-color: white;
 	height:20px;
+	border-radius: 5px;
 }
 /*Action icons.....................*/
 .fa-heart {
