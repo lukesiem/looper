@@ -6,7 +6,7 @@ HTML, CSS, JS, jQuery and AJAX on the front-end and  Node, Express and MongoDB o
 
 
 
-!["screenshot description"](https://github.com/lukesiem/looper/blob/master/looper2.png?raw=true)
+!["screenshot description"](https://github.com/lukesiem/looper/blob/master/docs/looper2.png?raw=true)
 
 
 
